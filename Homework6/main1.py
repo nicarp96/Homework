@@ -16,7 +16,7 @@ def enemy_damage_dealt():
     if pers_armor-enemy_attack>0:
         pers_armor -= enemy_attack
 
-    elif pers_armor-enemy_attack<0:
+    elif per12s_armor-enemy_attack<0:
         pers_hp = pers_hp-(-1*(pers_armor-enemy_attack))
         pers_armor=0
 
