@@ -67,4 +67,6 @@ GridLayout:
         Button:
             text: "/"
             on_press: entry.text += self.text
-    Button
+    Button:
+        text: "Dell"
+        on_press: entry.text = entry.text[:-1]
